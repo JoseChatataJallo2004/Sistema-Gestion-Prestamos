@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using WebSistemaPrestamos.Models;
 using WebSistemaPrestamos.Negocio;
-
+//Controlador de Inversionista
 namespace WebSistemaPrestamos.Controllers
 {
     [Authorize]

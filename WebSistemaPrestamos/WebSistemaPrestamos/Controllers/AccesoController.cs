@@ -11,6 +11,7 @@ using WebSistemaPrestamos.Negocio;
 
 namespace WebSistemaPrestamos.Controllers
 {
+    //Controlador de Acceso
     public class AccesoController : Controller
     {
         // GET: Acceso

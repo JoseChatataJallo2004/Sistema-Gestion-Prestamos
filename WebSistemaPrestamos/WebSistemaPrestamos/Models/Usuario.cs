@@ -5,6 +5,7 @@ using System.Web;
 
 namespace WebSistemaPrestamos.Models
 {
+    //Entidad Usuario (Prestatario, Prestamista, Jefe de Prestamista e Inversor)
     public class Usuario
     {
 

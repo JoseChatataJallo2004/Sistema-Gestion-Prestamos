@@ -4,7 +4,7 @@ use sgpg8;
 create table Rol (
 idrol int primary key identity ,
 descripcion varchar(100),
-);
+); 
 
 
 insert into Rol (descripcion) values ('Prestatario'),('Jefe Prestamista'),('Prestamista'),('Inversionita'),('Administrador')

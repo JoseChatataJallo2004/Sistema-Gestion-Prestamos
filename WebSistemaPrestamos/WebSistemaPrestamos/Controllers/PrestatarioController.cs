@@ -22,7 +22,7 @@ namespace WebSistemaPrestamos.Controllers
     [Authorize]
     public class PrestatarioController : Controller
     {
-        // GET: Prestatario
+        // GET: Prestatario Principal
         public ActionResult Index()
         {
 

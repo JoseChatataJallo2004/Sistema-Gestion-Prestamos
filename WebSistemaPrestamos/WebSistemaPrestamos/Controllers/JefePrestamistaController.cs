@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using WebSistemaPrestamos.Models;
 using WebSistemaPrestamos.Negocio;
 
+
+//Controlador de Jefe de Prestamista
 namespace WebSistemaPrestamos.Controllers
 {
     [Authorize]

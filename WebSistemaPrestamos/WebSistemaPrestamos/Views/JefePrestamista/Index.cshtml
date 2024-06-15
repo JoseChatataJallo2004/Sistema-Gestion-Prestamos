@@ -1,0 +1,518 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<ol class="breadcrumb mb-4 mt-4 m-lg-3">
+    <li class="breadcrumb-item"><a href="#">Resumen</a></li>
+    <li class="breadcrumb-item active">Usuarios</li>
+</ol>
+
+<div class="card">
+    <div class="card-header">
+        <i class="fas fa-users"></i> Lista Usuarios
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-success" onclick="abrirModal(null)">Crear Nuevo</button>
+            </div>
+        </div>
+        <hr />
+        <table id="tabla" class="display cell-border" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Tipo Documento</th>
+                    <th>N° Documento</th>
+                    <th>Departamento</th>
+                    <th>Provincia</th>
+                    <th>Distrito</th>
+
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="exampleModalLabel"> Usuarios </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+
+                <form class="row">
+
+                    <input id="txtid" type="hidden" value="0" />
+
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3 mb-md-0">
+                                <input type="text" class="form-control" id="txtnombre" placeholder=".">
+                                <label for="txtnombre">Nombres</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="txtapellido" placeholder=".">
+                                <label for="txtapellido">Apellidos</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3 mb-md-0">
+                                <select id="cbotipodocumento" class="form-select">
+                                </select>
+                                <label class="form-label">Tipo de Documento</label>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="txtnrodocumento" placeholder="." onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                                <label for="txtnrodocumento">Numero Documento</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <div class="form-floating mb-3 mb-md-0">
+                                <select id="cbodepartamento" class="form-select">
+                                </select>
+                                <label class="form-label">Departamento</label>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating mb-3 mb-md-0">
+
+                                <select id="cboprovincia" class="form-select">
+                                </select>
+                                <label class="form-label">Provincia</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating mb-3 mb-md-0">
+
+                                <select id="cbodistrito" class="form-select">
+                                </select>
+                                <label class="form-label">Distrito</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <div class="form-floating mb-3 mb-md-0">
+                                <input type="text" class="form-control" id="txtcorreo" placeholder=".">
+                                <label for="txtcorreo">Correo</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating mb-3 mb-md-0">
+                                <select id="cboidrolmanual" class="form-select">
+                                    <option value="3">Prestamista</option>
+                                </select>
+                                <label for="cboidrolmanual" class="form-label">Rol</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <input id="txtidpadre" type="hidden" value="@ViewBag.IdUsuarioPadre" />
+
+                </form>
+
+                <div id="mensajeError" class="alert alert-danger" role="alert" style="display: none;"></div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" onclick="guardar()"> Guardar </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@section scripts{
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script>
+
+        var tabladata;
+        var filaseleccionada;
+
+            $(document).ready(function () {
+                var idUsuarioid = '@(((WebSistemaPrestamos.Models.Usuario)Session["Usuario"]).idusuario)';
+
+                tabladata = $("#tabla").DataTable({
+                    responsive: true,
+                    ordering: false,
+                    ajax: {
+                        url: '@Url.Action("ListarUsuarioGeneral", "JefePrestamista")',
+                        data: { idpadre: idUsuarioid },
+                        type: 'GET',
+                        dataType: 'json',
+                        dataSrc: 'lista'
+                    },
+                    columns: [
+                        { "data": "nombres" },
+                        { "data": "apellidos" },
+
+
+                        {
+                            "data": "odocumento", "render": function (data) {
+                                return data.descripcion
+                            }
+                        },
+                        { "data": "docume" },
+
+                        {
+                            "data": "odepartametno", "render": function (data) {
+                                return data.NombreDepartamento
+                            }
+                        },
+                        {
+                            "data": "oprovincia", "render": function (data) {
+                                return data.NombreProvincia
+                            }
+                        },
+
+                        {
+                            "data": "odistrito", "render": function (data) {
+                                return data.nombredistrito
+                            }
+                        },
+
+
+                        {
+                            data: null,
+                            render: function (data, type, row) {
+                                // Aquí puedes colocar los botones de editar y eliminar si es necesario
+                                return '<button type="button" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>';
+                            }
+                        }
+                    ],
+                    language: {
+                        url: "https://cdn.datatables.net/plug-ins/1.13.5/i18n/es-ES.json"
+                    }
+                });
+            });
+
+
+
+        //combobox
+                 jQuery.ajax({
+                    url: '@Url.Action("ListarDocumento", "Acceso")',
+                    type: "GET",
+                    data: null,
+                    dataType: "json",
+                    contentType: "application/json; charset=utf-8",
+                    success: function (data) {
+                        console.log(data)
+                        $("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccione").appendTo("#cbotipodocumento");
+
+                        $.each(data.data, function (index, item) {
+                            $("<option>").attr({ "value": item.iddocumento }).text(item.descripcion).appendTo("#cbotipodocumento");
+                        })
+                    },
+                    error: function (error) {
+                        console.log(error)
+                    }
+
+                });
+
+
+        $(document).ready(function () {
+            listarDepartamentos();
+
+
+        });
+
+        //funcion para llenar el combo de departamento
+        function listarDepartamentos() {
+            $.ajax({
+                url: '@Url.Action("ObtenerDepartamento", "Acceso")',
+                type: "POST",
+                dataType: "json",
+                success: function (lista) {
+                    $("#cbodepartamento").empty(); // Limpiar opciones anteriores
+
+                    $("<option>").attr({ "value": "", "disabled": "disabled", "selected": "true" }).text("Seleccione").appendTo("#cbodepartamento");
+
+                    if (lista.lista && lista.lista.length > 0) {
+                        $.each(lista.lista, function (index, item) {
+                            $("<option>").attr({ "value": item.iddepartamento }).text(item.NombreDepartamento).appendTo("#cbodepartamento");
+                        });
+
+
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+
+        // Llama a la función listarProvincias al seleccionar un departamento
+        $('#cbodepartamento').on('change', function () {
+            listarProvincias($(this).val(), null);
+            $('#cbodistrito').empty();
+        });
+
+
+        //funcion para llenar el combo de provincia
+        function listarProvincias(idDepartamento, selectedProvinciaId) {
+            $.ajax({
+                url: '@Url.Action("ObtenerProvincias","Acceso")',
+                type: 'POST',
+                dataType: 'json',
+                data: { iddepartamento: idDepartamento },
+                success: function (response) {
+                    $('#cboprovincia').empty(); // Limpiar opciones anteriores
+
+                    $('<option>').attr({ 'value': '', 'disabled': 'disabled', 'selected': 'true' }).text('Seleccione').appendTo('#cboprovincia');
+
+                    if (response.lista && response.lista.length > 0) {
+                        $.each(response.lista, function (index, item) {
+                            var option = $('<option>').attr({ 'value': item.IdProvincia }).text(item.NombreProvincia);
+                            if (item.IdProvincia === selectedProvinciaId) {
+                                option.attr('selected', 'selected');
+                            }
+                            option.appendTo('#cboprovincia');
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+
+
+        // Llama a la función listarDistritos al seleccionar una provincia
+        $('#cboprovincia').on('change', function () {
+            listarDistritos($(this).val(), null);
+        });
+
+
+        //funcion para llenar el combo de distrito
+        function listarDistritos(idProvincia, selectedDistritoId) {
+            console.log("listarDistritos - idProvincia: ", idProvincia);
+
+
+            $.ajax({
+                 url: '@Url.Action("ObtenerDistritos", "Acceso")',
+                type: 'POST',
+                dataType: 'json',
+                data: { idprovincia: idProvincia },
+                success: function (responses) {
+                    console.log("listarDistritos - data: ", responses);
+
+                    $('#cbodistrito').empty(); // Limpiar opciones anteriores
+
+                    $('<option>').attr({ 'value': '', 'disabled': 'disabled', 'selected': 'true' }).text('Seleccione').appendTo('#cbodistrito');
+
+                    if (responses.lista && responses.lista.length > 0) {
+                        $.each(responses.lista, function (index, item) {
+                            var option = $('<option>').attr({ 'value': item.IdDistrito }).text(item.nombredistrito);
+                            if (item.IdDistrito === selectedDistritoId) {
+                                option.attr('selected', 'selected');
+                            }
+                            option.appendTo('#cbodistrito');
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+
+
+        function abrirModal(json) {
+            // Limpiar los campos del formulario antes de mostrar el modal
+            $("#txtid").val("0");
+            $("#txtnombre").val("");
+            $("#txtapellido").val("");
+            $("#cbotipodocumento").val("0");
+            $("#txtnrodocumento").val("");
+            $("#cbodepartamento").val($("#cbodepartamento option:first").val());
+            $("#cboprovincia").val($("#cboprovincia option:first").val());
+            $("#cbodistrito").val($("#cbodistrito option:first").val());
+            $("#txtcorreo").val("");
+            $("#cboidrolmanual").val("3");
+            $("#mensajeError").hide(); // Ocultar el mensaje de error si está visible
+
+            // Si se pasa un objeto JSON, cargar sus valores en el formulario
+            if (json != null) {
+                $("#txtid").val(json.idusuario);
+                $("#txtnombre").val(json.nombres);
+                $("#txtapellido").val(json.apellidos);
+                $("#cbotipodocumento").val(json.odocumento.iddocumento);
+                $("#txtnrodocumento").val(json.docume);
+                $("#cbodepartamento").val(json.odepartametno.iddepartamento);
+
+                listarProvincias(json.odepartametno.iddepartamento, json.oprovincia.IdProvincia);
+                listarDistritos(json.oprovincia.IdProvincia, json.odistrito.IdDistrito);
+
+
+                $("#txtcorreo").val(json.correo);
+                $("#cboidrolmanual").val(json.orol.idrol);
+            } else {
+                // Cuando registras un nuevo usuario, limpia los desplegables "Provincia" y "Distrito"
+
+                $("#cboprovincia").empty();
+                $("#cbodistrito").empty();
+            }
+
+            // Mostrar el modal
+            $("#FormModal").modal("show");
+        }
+
+
+        //btn editar
+        //llamar al metodo editar dentro de la tabla pero que se ejecute en el form que se crea con los datos dentro
+        $('#tabla').on('click', '.btn-editar', function () {
+            // Obtener la fila que contiene el botón de edición
+            var fila = $(this).closest('tr');
+            var data = tabladata.row(fila).data();
+            abrirModal(data);
+        });
+
+
+
+
+         function guardar() {
+                     var usuariosgeneral = {
+                         idusuario: $("#txtid").val(),
+                         nombres: $("#txtnombre").val(),
+                          apellidos: $("#txtapellido").val(),
+
+                         odocumento: {
+                             iddocumento: $("#cbotipodocumento option:selected").val(),
+                             descripcion: $("#cbotipodocumento option:selected").text
+                         },
+                         docume: $("#txtnrodocumento").val(),
+
+                         odepartametno: {
+                             iddepartamento: $("#cbodepartamento option:selected").val(),
+                             nombreDepartamento: $("#cbodepartamento option:selected").text
+                         },
+                         oprovincia: {
+                             IdProvincia: $("#cboprovincia option:selected").val(),
+                             NombreProvincia: $("#cboprovincia option:selected").text
+
+                         },
+                         odistrito: {
+                             IdDistrito: $("#cbodistrito option:selected").val(),
+                             nombredistrito: $("#cbodistrito option:selected").text
+
+                         },
+                         correo: $("#txtcorreo").val(),
+
+                         idddrol: $("#cboidrolmanual").val(),
+                         idpadrevista: $("#txtidpadre").val(),
+
+
+                     };
+
+                     $.ajax({
+                         url: '@Url.Action("guardarusuariogeneral", "JefePrestamista")',
+                         type: "POST",
+                         data: JSON.stringify(usuariosgeneral),
+                         dataType: "json",
+                         contentType: "application/json; charset=utf-8",
+                         success: function (data) {
+                             if (usuariosgeneral.idusuario == 0) {
+                                 if (data.resultado) {
+                                     usuariosgeneral.idusuario = data.resultado;
+                                     //tabladata.row.add(usuariosgeneral).draw(false);
+
+                                     tabladata.clear().draw();// Limpiar la tabla antes de volver a cargar los datos
+                                     
+
+                                     tabladata.ajax.reload();
+                                     $("#FormModal").modal("hide");
+
+                                     Swal.fire({
+                                         title: "Registrado!",
+                                         text: "El usuario ha sido registrado con exito!",
+                                         icon: "success"
+                                     });
+
+
+                                 } else {
+                                     $("#mensajeError").text(data.mensaje);
+                                     $("#mensajeError").show();
+
+                                 }
+                             } else {
+                                 if (data.resultado) {
+                                     usuariosgeneral.idusuario = data.resultado;
+                                     //tabladata.row.add(usuariosgeneral).draw(false);
+
+
+                                     tabladata.ajax.reload();
+                                     $("#FormModal").modal("hide");
+
+                                     Swal.fire({
+                                         title: "Actualizado!",
+                                         text: "El usuario ha sido actualizado!",
+                                         icon: "success"
+                                     });
+
+
+                                 } else {
+                                     $("#mensajeError").text(data.mensaje);
+                                     $("#mensajeError").show();
+
+                                 }
+                             }
+                         },
+                         error: function (error) {
+                             console.log(error);
+                         },
+
+                     });
+                 }
+
+
+    </script>
+
+
+}
+
+
+

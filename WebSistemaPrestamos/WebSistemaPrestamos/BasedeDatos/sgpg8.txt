@@ -1,0 +1,476 @@
+﻿create database sgpg8;
+use sgpg8;
+
+create table Rol (
+idrol int primary key identity ,
+descripcion varchar(100),
+);
+
+
+insert into Rol (descripcion) values ('Prestatario'),('Jefe Prestamista'),('Prestamista'),('Inversionita'),('Administrador')
+
+CREATE TABLE Documento (
+    iddocumento INT PRIMARY KEY ,
+    TipoDocumento VARCHAR(50) NOT NULL
+);
+
+INSERT INTO Documento (iddocumento, TipoDocumento) VALUES
+(1, 'DNI'),
+(2, 'Pasaporte'),
+(3, 'Licencia de Conducir');
+
+
+
+CREATE TABLE Departamento(
+    Iddepartamento int primary key IDENTITY(1,1) NOT NULL,
+    NombreDepartamento varchar(500) NULL
+);
+
+INSERT INTO Departamento (NombreDepartamento) VALUES
+('Lima'),
+('Arequipa'),
+('Cusco'),
+('La Libertad'),
+('Piura'),
+('Lambayeque'),
+('Junín'),
+('Puno'),
+('Ancash'),
+('Ica'),
+('Tacna'),
+('Huancavelica'),
+('San Martín'),
+('Cajamarca'),
+('Ayacucho'),
+('Ucayali'),
+('Apurímac'),
+('Amazonas'),
+('Madre de Dios'),
+('Moquegua');
+
+
+
+CREATE TABLE Provincia(
+    IdProvincia int PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    IdDepartamento int NULL,
+    NombreProvincia varchar(500) NULL,
+    FOREIGN KEY (IdDepartamento) REFERENCES Departamento(IdDepartamento)
+);
+
+
+INSERT INTO Provincia (IdDepartamento, NombreProvincia) VALUES
+(1, 'Lima'),
+(1, 'Huaral'),
+(2, 'Arequipa'),
+(2, 'Islay'),
+(3, 'Cusco'),
+(3, 'Urubamba'),
+(4, 'Trujillo'),
+(4, 'Ascope'),
+(5, 'Piura'),
+(5, 'Sullana'),
+(6, 'Chiclayo'),
+(6, 'Lambayeque'),
+(7, 'Huancayo'),
+(7, 'Satipo'),
+(8, 'Puno'),
+(8, 'Juliaca'),
+(9, 'Huaraz'),
+(9, 'Huarmey'),
+(10, 'Ica'),
+(10, 'Nazca');
+
+
+CREATE TABLE Distrito(
+    IdDistrito int PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    IdProvincia int NULL,
+    NombreDistrito varchar(500) NULL,
+    FOREIGN KEY (IdProvincia) REFERENCES Provincia(IdProvincia)
+);
+
+
+INSERT INTO Distrito (IdProvincia, NombreDistrito) VALUES
+(1, 'Lima'),
+(1, 'San Isidro'),
+(2, 'Chancay'),
+(3, 'Arequipa'),
+(3, 'Mollendo'),
+(4, 'Cusco'),
+(4, 'Ollantaytambo'),
+(5, 'Trujillo'),
+(5, 'Huanchaco'),
+(6, 'Chiclayo'),
+(6, 'Ferreñafe'),
+(7, 'Huancayo'),
+(7, 'Satipo'),
+(8, 'Puno'),
+(8, 'Juliaca'),
+(9, 'Huaraz'),
+(9, 'Carhuaz'),
+(10, 'Ica'),
+(10, 'Nazca'),
+(11, 'Tacna'),
+(11, 'Candarave');
+
+
+
+
+
+create table usuario(
+idusuario int primary key identity ,
+nombres varchar(100),
+apellidos varchar(100),
+idtipodocumento int references Documento(iddocumento),
+docume varchar (100),
+iddepartamento int references Departamento (Iddepartamento),
+idprovincia int references Provincia (IdProvincia),
+iddistrito int references Distrito (IdDistrito),
+correo varchar(100),
+clave varchar(150),
+idrol int references Rol(idrol),
+idusuariopadre int references usuario (idusuario),
+reestablecer bit default 1,
+fecharegistro datetime default getdate()
+)
+go
+
+
+INSERT INTO usuario (nombres, apellidos, idtipodocumento, docume, iddepartamento, idprovincia, iddistrito, correo, clave, idrol, idusuariopadre)
+VALUES ('Shirdday', 'Cueva', 1, '12345678', 1, 1, 1, 'shyrdday@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 3, null);
+
+
+
+
+INSERT INTO usuario (nombres, apellidos, idtipodocumento, docume, iddepartamento, idprovincia, iddistrito, correo, clave, idrol, idusuariopadre )
+VALUES ('Juan', 'Pérez', 1, '12345678', 1, 1, 1, 'jchatatajallo@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 1, 1);
+
+select * from usuario
+
+
+create or alter proc usp_Ingresaralsistema
+as
+begin
+SELECT u.idusuario, u.nombres, u.apellidos, u.correo, u.clave,u.reestablecer,r.idrol, r.descripcion
+FROM usuario AS u
+INNER JOIN rol AS r ON u.idrol = r.idrol
+end
+GO
+
+exec usp_Ingresaralsistema
+
+
+
+
+
+create or alter procedure sp_RegistrarPrestatario(
+
+@nombres varchar(100),
+@apellidos varchar(100),
+@idtipodocumento int ,
+@docume varchar (100),
+@iddepartamento int ,
+@idprovincia int ,
+@iddistrito int ,
+@correo varchar(100),
+@clave varchar(150),
+@idrol int ,
+@idusuariopadre int ,
+@mensaje varchar(500) output, 
+@resultado int output)
+
+as
+begin 
+set @resultado=0
+if not exists (select * from usuario where docume=@docume )
+begin 
+ IF NOT EXISTS (SELECT * FROM usuario WHERE correo = @correo)
+        BEGIN
+insert into usuario(nombres,apellidos,idtipodocumento,docume,iddepartamento,idprovincia,iddistrito,correo,clave,idrol,idusuariopadre)values ( @nombres,@apellidos,@idtipodocumento,@docume,@iddepartamento,@idprovincia,@iddistrito,@correo,@clave,1,@idusuariopadre)
+set @resultado =SCOPE_IDENTITY()
+END
+        ELSE
+            SET @mensaje = 'El Correo ingresado ya existe en el sistema'
+end
+else
+set @mensaje='El Numero de Documento ingresado ya existe en el Sistema'
+end
+
+
+
+select * from usuario
+
+//16/04/2024
+
+
+INSERT INTO usuario (nombres, apellidos, idtipodocumento, docume, iddepartamento, idprovincia, iddistrito, correo, clave, idrol, idusuariopadre)
+VALUES ('Messi', 'Cueva', 1, '12345678', 1, 1, 1, 'messi@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 3, null);
+INSERT INTO usuario (nombres, apellidos, idtipodocumento, docume, iddepartamento, idprovincia, iddistrito, correo, clave, idrol, idusuariopadre)
+VALUES ('Ronaldo', 'Cueva', 1, '12345678', 1, 1, 1, 'ronaldo@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 3, null);
+INSERT INTO usuario (nombres, apellidos, idtipodocumento, docume, iddepartamento, idprovincia, iddistrito, correo, clave, idrol, idusuariopadre)
+VALUES ('Neymar', 'Cueva', 1, '12345678', 1, 1, 1, 'neymar@gmail.com', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 3, null);
+
+
+
+CREATE OR ALTER PROC usp_listarprestamistas
+AS
+BEGIN
+    SELECT u.idusuario, CONCAT(u.nombres, ' ', u.apellidos) AS NombreCompleto
+    FROM usuario u
+    WHERE u.idrol = 3;
+END
+GO
+
+
+
+
+
+CREATE OR ALTER PROC usp_listarusuariosporpadres(
+@idpadre int 
+)
+AS
+BEGIN
+    SELECT u.idusuario, u.nombres, u.apellidos, d.iddocumento,d.TipoDocumento, u.docume,depa.Iddepartamento,depa.NombreDepartamento,pro.IdProvincia, pro.NombreProvincia,dis.IdDistrito, dis.NombreDistrito, rlo.idrol, rlo.descripcion, u.correo
+    FROM usuario u inner join Documento d	
+	on u.idtipodocumento=d.iddocumento
+	inner join Departamento depa on u.iddepartamento=depa.Iddepartamento
+		inner join Provincia pro on u.idprovincia=pro.IdProvincia
+				inner join Distrito dis on u.iddistrito=dis.IdDistrito
+				inner join Rol rlo on u.idrol=rlo.idrol
+
+    WHERE u.idusuariopadre = @idpadre;
+END
+GO
+
+exec usp_listarusuariosporpadres 2
+
+
+//cambios 
+
+UPDATE usuario
+SET reestablecer = 1
+WHERE idusuario BETWEEN 2 AND 10;
+
+
+
+///
+
+create or alter procedure sp_RegistrarUsuariosGeneral(
+
+@nombres varchar(100),
+@apellidos varchar(100),
+@idtipodocumento int ,
+@docume varchar (100),
+@iddepartamento int ,
+@idprovincia int ,
+@iddistrito int ,
+@correo varchar(100),
+@clave varchar(150),
+@idrol int ,
+@idusuariopadre int ,
+@reestablacer int,
+@mensaje varchar(500) output, 
+@resultado int output)
+
+as
+begin 
+set @resultado=0
+if not exists (select * from usuario where docume=@docume )
+begin 
+ IF NOT EXISTS (SELECT * FROM usuario WHERE correo = @correo)
+        BEGIN
+insert into usuario(nombres,apellidos,idtipodocumento,docume,iddepartamento,idprovincia,iddistrito,correo,clave,idrol,idusuariopadre, reestablecer)values ( @nombres,@apellidos,@idtipodocumento,@docume,@iddepartamento,@idprovincia,@iddistrito,@correo,@clave,@idrol, @idusuariopadre,0)
+set @resultado =SCOPE_IDENTITY()
+END
+        ELSE
+            SET @mensaje = 'El Correo ingresado ya existe en el sistema'
+end
+else
+set @mensaje='El Numero de Documento ingresado ya existe en el Sistema'
+end
+
+
+
+create or alter procedure usp_editar_usuariosgeneral(
+@idusuario int,
+@nombres varchar(100),
+@apellidos varchar(100),
+@idtipodocumento int ,
+@docume varchar (100),
+@iddepartamento int ,
+@idprovincia int ,
+@iddistrito int ,
+@correo varchar(100),
+@mensaje varchar(500) output, 
+@resultado int output)
+as
+begin 
+set @resultado=0
+if not exists (select * from usuario where docume=@docume and idusuario!=@idusuario )
+begin 
+ IF NOT EXISTS (SELECT * FROM usuario WHERE correo= @correo and idusuario!=@idusuario)
+        BEGIN
+
+		update top(1) usuario set 
+nombres=@nombres,
+apellidos=@apellidos,
+idtipodocumento=@idtipodocumento,
+docume=@docume,
+iddepartamento=@iddepartamento,
+idprovincia=@idprovincia,
+iddistrito=@iddistrito,
+correo=@correo
+where idusuario=@idusuario
+set @resultado =1
+
+
+END
+        ELSE
+            SET @mensaje = 'El Correo ingresado ya existe en el sistema'
+end
+else
+set @mensaje='El Numero de Documento ingresado ya existe en el Sistema'
+end
+
+
+////////////////////////////// Prestamos  ////////////////////////////// 
+create table Prestamo(
+IdPrestamo int primary key identity,
+IdUsuarioPrestatario int references usuario(idusuario),
+correousuario varchar(50),
+FechaInicioPago datetime,
+FechaFinPago datetime,
+MontoPrestamo decimal(10,2),
+nrodias int,
+Valordia decimal(10,2),
+Estado int default 1,
+FechaCreacion datetime default getdate(),
+)
+go
+
+
+
+create table PrestamoDetalle(
+IdPrestamoDetalle int primary key identity,
+IdPrestamo int references Prestamo(IdPrestamo),
+Nrocuota int,
+MontoDiario decimal(10,2),
+Estado int default 1,
+FechaPagado datetime ,
+FechaCreacion datetime default getdate(),
+
+)
+go
+
+
+
+
+CREATE OR ALTER PROCEDURE sp_registrarprestamos(
+    @IdUsuarioPrestatario INT,
+	@correousuario VARCHAR(50),
+    @FechaInicioPago DATETIME,
+    @FechaFinPago DATETIME,
+    @MontoPrestamo DECIMAL(10,2),
+    @nrodias INT,
+    @Valordia DECIMAL(10,2),
+	@mensaje VARCHAR(500) OUTPUT
+)
+AS
+BEGIN
+    DECLARE @IdPrestamo INT;
+
+    -- Verificar si el usuario tiene préstamos pendientes
+    IF EXISTS (SELECT 1 FROM Prestamo WHERE IdUsuarioPrestatario = @IdUsuarioPrestatario AND Estado = 1)
+    BEGIN
+        SET @mensaje = 'Tienes una solicitud de préstamo pendiente.';
+        RETURN; -- Finaliza el proceso sin registrar el nuevo préstamo
+    END;
+
+    -- Verificar si el usuario tiene cuotas pendientes en préstamos anteriores
+    IF EXISTS (SELECT 1 FROM Prestamo P INNER JOIN PrestamoDetalle PD ON P.IdPrestamo = PD.IdPrestamo
+                WHERE P.IdUsuarioPrestatario = @IdUsuarioPrestatario AND PD.Estado = 1)
+    BEGIN
+        SET @mensaje = 'Tienes cuotas pendientes de préstamos anteriores.';
+        RETURN; -- Finaliza el proceso sin registrar el nuevo préstamo
+    END;
+
+    -- Insertar el préstamo en la tabla Prestamo
+    INSERT INTO Prestamo (IdUsuarioPrestatario, correousuario, FechaInicioPago, FechaFinPago, MontoPrestamo, nrodias, Valordia)
+    VALUES (@IdUsuarioPrestatario, @correousuario, @FechaInicioPago, @FechaFinPago, @MontoPrestamo, @nrodias, @Valordia);
+
+    -- Obtener el ID del préstamo recién insertado
+    SET @IdPrestamo = SCOPE_IDENTITY();
+
+    -- Insertar detalles del préstamo basados en el número de días
+    DECLARE @FechaPago DATETIME = @FechaInicioPago;
+    DECLARE @NroCuota INT = 1;
+
+    WHILE @NroCuota <= @nrodias
+    BEGIN
+        INSERT INTO PrestamoDetalle (IdPrestamo, Nrocuota, MontoDiario)
+        VALUES (@IdPrestamo, @NroCuota, @Valordia);
+
+        -- Incrementar la fecha para la próxima cuota
+        SET @FechaPago = DATEADD(DAY, 1, @FechaPago);
+        SET @NroCuota = @NroCuota + 1;
+    END;
+
+
+   
+END;
+
+
+
+
+
+
+CREATE or alter PROCEDURE sp_listarprestamos
+    @idusuario INT
+AS
+BEGIN
+    -- Seleccionar los préstamos asociados al usuario especificado
+    SELECT 
+        p.IdPrestamo,
+        p.IdUsuarioPrestatario,
+        CONVERT(VARCHAR(10), p.FechaInicioPago, 23) AS FechaInicioPago,
+        CONVERT(VARCHAR(10), p.FechaFinPago, 23) AS FechaFinPago,
+        p.MontoPrestamo,
+        p.nrodias,
+        p.Valordia,
+        p.Estado 
+    FROM 
+        Prestamo AS p
+    WHERE 
+        p.IdUsuarioPrestatario = @idusuario;
+END
+
+
+
+
+CREATE or alter PROCEDURE sp_listardetallerprestamos
+    @idprestamo INT
+AS
+BEGIN
+    -- Seleccionar los préstamos asociados al usuario especificado
+    SELECT 
+       pa.IdPrestamoDetalle, pa.IdPrestamo, pa.Nrocuota, pa.MontoDiario, pa.Estado
+    FROM 
+        PrestamoDetalle AS pa
+    WHERE 
+        pa.IdPrestamo = @idprestamo;
+END
+
+
+
+
+create or alter proc sp_listarPrestamistaPrestamos(
+@idpadreusuario int 
+)
+as
+begin 
+select p.IdPrestamo, u.nombres,u.apellidos, p.fechainiciopago , p.fechafinpago,p.montoprestamo,p.nrodias,p.valordia, p.estado from usuario as u inner join Prestamo as p
+on u.idusuario=p.idUsuarioPrestatario
+
+where u.idusuariopadre=@idpadreusuario
+end
+
+

@@ -1,0 +1,245 @@
+﻿@{
+    ViewBag.Title = "Vermisprestamos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<ol class="breadcrumb mb-4 mt-4 m-lg-3">
+    <li class="breadcrumb-item"><a href="#">Resumen</a></li>
+    <li class="breadcrumb-item active">Prestamos</li>
+</ol>
+
+<div class="card">
+    <div class="card-header">
+        <i class="fas fa-users"></i> Lista prestamos
+    </div>
+
+    <div class="card-body">
+        <div class="row">
+            <div class="col-12">
+                <a href="@Url.Action("Index","Prestatario")" class="btn btn-success">Solicitar Prestamos</a>
+            </div>
+        </div>
+        <hr />
+        <table id="tabla" class="display cell-border" style="width:100%">
+            <thead>
+                <tr>
+
+                    <th>Fecha de Inicio</th>
+                    <th>Fecha de Fin </th>
+                    <th>Monto Prestamo</th>
+                    <th>N° Dias</th>
+                    <th>Pago x Dias</th>
+                    <th>Estado</th>
+
+                    <th></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="mdData" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="txtIdPrestamo"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="txtMontoPrestamo" placeholder="Monto Prestamo" disabled>
+                            <label for="floatingInput">Fecha de Inicio:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="txtTipoMoneda" placeholder="Tipo Moneda" disabled>
+                            <label for="floatingInput">Monto prestamo:</label>
+                        </div>
+                       
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="txtNroCuotas" placeholder="Nro. Cuotas" disabled>
+                            <label for="floatingInput">Nro. Dias:</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="txtFormaPago" placeholder="Forma de Pago" disabled>
+                            <label for="floatingInput">Fecha de Fin:</label>
+                        </div>
+                       
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="txtMontoTotal" placeholder="Monto Total" disabled>
+                            <label for="floatingInput">Pago por Dias:</label>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <table class="table table-striped" id="tbDetalle">
+                            <thead>
+                                <tr>
+                                    <th>Nro. Cuota</th>
+                                    <th>Monto</th>
+                                    <th>Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+
+
+    <script>
+
+        var tabladata;
+        var filaseleccionada;
+
+        $(document).ready(function () {
+            var idUsuarioid = '@(((WebSistemaPrestamos.Models.Usuario)Session["Usuario"]).idusuario)';
+
+            tabladata = $("#tabla").DataTable({
+                responsive: true,
+                ordering: false,
+                ajax: {
+                    url: '@Url.Action("ListarPrestamosGeneral", "Prestatario")',
+                    data: { idusuario: idUsuarioid },
+                    type: 'GET',
+                    dataType: 'json',
+                    dataSrc: 'lista'
+                },
+                columns: [
+                    { "data": "FechaInicioPago" },
+                    { "data": "FechaFinPago" },
+                    {
+                        "data": "MontoPrestamo",
+                        "render": function (data, type, row) {
+                            return 'S/ ' + data;
+                        }
+
+
+                    },
+                    { "data": "nrodias" },
+                    {
+                        "data": "valorpordia",
+                        "render": function (data, type, row) {
+                            return 'S/ ' + data;
+                        }
+                    },
+                    {
+                        "data": "estado",
+
+                        "render": function (data, type, row) {
+                            switch (data) {
+                                case 1:
+                                    return '<span class="badge bg-warning">Pendiente</span>';
+                                case 2:
+                                    return '<span class="badge bg-danger">Rechazado</span>';
+                                case 3:
+                                    return '<span class="badge bg-success">Aprobado</span>';
+                                default:
+                                    return '';
+                            }
+                        }
+                    },
+                    {
+                        data: null,
+                        render: function (data, type, row) {
+                            return '<button type="button" class="btn btn-primary btn-sm btn-editar"><i class="fa-solid fa-list-ol"></i>Detalles</button>';
+                        }
+                    }
+                ],
+                language: {
+                    url: "https://cdn.datatables.net/plug-ins/1.13.5/i18n/es-ES.json"
+                }
+            });
+
+
+
+
+
+
+
+
+            $('#tabla').on('click', '.btn-editar', function () {
+            var data = tabladata.row($(this).parents('tr')).data(); // Obtener los datos de la fila seleccionada
+            var idprestamo = data.IdPrestamo; 
+
+            $.ajax({
+                url: '@Url.Action("ListarDetallePrestamosGeneral", "Prestatario")',
+                type: 'GET',
+                data: { idprestamo: idprestamo },
+                dataType: 'json',
+                success: function (response) {
+                    // Llenar la tabla modal con los detalles del préstamo
+                    var detalles = response.lista;
+                    var tableBody = $('#tbDetalle tbody');
+                    tableBody.empty(); // Limpiar la tabla antes de agregar nuevas filas
+                    detalles.forEach(function (detalle) {
+
+                        var estadoconeditores = '';
+                        switch (detalle.Estado) {
+                            case 1:
+                                estadoconeditores = '<span class="badge bg-danger">Pendiente</span>';
+                                break;
+
+                            case 2:
+                                estadoconeditores = '<span class="badge bg-success">Pagado</span>';
+                                break;
+                            default:
+                                estadoconeditores = '';
+                        }
+
+                        var row = '<tr>' +
+                            '<td>' + detalle.NroCuota + '</td>' +
+                            '<td>' + 'S/' +  detalle.MontoDiario + '</td>' +
+                            '<td>' + estadoconeditores + '</td>' +
+                            '</tr>';
+                        tableBody.append(row);
+                    });
+
+                    // Mostrar otros detalles del préstamo en el modal
+                    $('#txtMontoPrestamo').val(data.FechaInicioPago);
+                    $('#txtTipoMoneda').val(data.MontoPrestamo);
+                    $('#txtNroCuotas').val(data.nrodias);
+                    $('#txtFormaPago').val(data.FechaFinPago);
+                    $('#txtMontoTotal').val(data.valorpordia);
+
+                    // Mostrar el modal
+                    $('#mdData').modal('show');
+                },
+                error: function () {
+                    // Manejar errores si es necesario
+                }
+            });
+            });
+
+
+
+        });
+
+    </script>
+}

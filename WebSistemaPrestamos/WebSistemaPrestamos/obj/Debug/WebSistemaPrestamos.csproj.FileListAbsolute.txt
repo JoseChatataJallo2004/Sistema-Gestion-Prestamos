@@ -1,0 +1,688 @@
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+E:\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+D:\CIBERTEC\SEXTOCICLO\PROYECTO DE INTEGRACION\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+C:\Users\Asus\3D Objects\Jacinto-Cibertec-Integrador\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Asus\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+C:\Users\Jose\3D Objects\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+C:\Users\Asus\Music\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSiste.98535414.Up2Date
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+C:\Users\Asus\Videos\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll.config
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebSistemaPrestamos.pdb
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.exe.config
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csc.rsp
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.exe.config
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\csi.rsp
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.AppContext.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Collections.Immutable.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Console.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Globalization.Calendars.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Http.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Net.Sockets.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.ValueTuple.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.exe.config
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\vbc.rsp
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\roslyn\VBCSCompiler.exe.config
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.Web.Infrastructure.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\WebGrease.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Helpers.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Mvc.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Optimization.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.Razor.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Deployment.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\System.Web.WebPages.Razor.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Newtonsoft.Json.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Antlr3.Runtime.pdb
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Helpers.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Mvc.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Optimization.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.Razor.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.AssemblyReference.cache
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CoreCompileInputs.cache
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.csproj.CopyComplete
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.dll
+E:\PROGRAMACION\PROYECTO\ProyServicios\pid_20241_viernes_T6GN_grupo_08a\WebSistemaPrestamos\WebSistemaPrestamos\obj\Debug\WebSistemaPrestamos.pdb

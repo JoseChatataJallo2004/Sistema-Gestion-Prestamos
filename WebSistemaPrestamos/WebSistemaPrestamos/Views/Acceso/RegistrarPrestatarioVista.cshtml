@@ -1,0 +1,369 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="@Url.Content("~/img/logogeneral.png")" type="image/x-icon">
+    <style>
+        body {
+            background-color: #fffff;
+            background-image: url('@Url.Content("~/img/registrar.jpg")');
+            background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            height: 100vh; /* Establece la altura del body al 100% de la ventana */
+            margin: 0; /* Elimina el margen del body */
+        }
+        html {
+            height: 100%; /* Asegura que el elemento html también ocupe toda la pantalla */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-7">
+                <div class="card shadow-lg rounded-lg">
+                    <div class="card-header text-center"><h3 class="font-weight-light my-4">Crear una cuenta</h3></div>
+                    <div class="card-body">
+                        <form class="row">
+
+                            <input id="txtid" type="hidden" value="0" />
+
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input type="text" class="form-control" id="txtnombre" placeholder=".">
+                                        <label for="txtnombre">Nombres</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="txtapellido" placeholder=".">
+                                        <label for="txtapellido">Apellidos</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <select id="cbotipodocumento" class="form-select">
+                                        </select>
+                                        <label class="form-label">Tipo de Documento</label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="txtnrodocumento" placeholder="." onkeypress="return event.charCode >= 48 && event.charCode<=57" />
+                                        <label for="txtnrodocumento">Numero Documento</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <select id="cbodepartamento" class="form-select">
+                                        </select>
+                                        <label class="form-label">Departamento</label>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+
+                                        <select id="cboprovincia" class="form-select">
+                                        </select>
+                                        <label class="form-label">Provincia</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+
+                                        <select id="cbodistrito" class="form-select">
+                                        </select>
+                                        <label class="form-label">Distrito</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input type="text" class="form-control" id="txtcorreo" placeholder=".">
+                                        <label for="txtcorreo">Correo</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        <input type="text" class="form-control" id="txtclave" placeholder=".">
+                                        <label for="txtclave">Clave</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating mb-3 mb-md-0">
+
+                                        <select id="cboprestamista" class="form-select">
+                                        </select>
+                                        <label class="form-label">Prestamistas</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div id="mensajeError" class="alert alert-danger" role="alert" style="display: none;"></div>
+
+
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid"><button class="btn btn-primary btn-block" onclick="guardar()">Registrar</button></div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a href="@Url.Action("IniciarSistema","Acceso")">¿Ya tienes una cuenta? Iniciar Sesión</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+    <script>
+
+        jQuery.ajax({
+            url: '@Url.Action("ListarDocumento", "Acceso")',
+            type: "GET",
+            data: null,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                console.log(data)
+                $("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccione").appendTo("#cbotipodocumento");
+
+                $.each(data.data, function (index, item) {
+                    $("<option>").attr({ "value": item.iddocumento }).text(item.descripcion).appendTo("#cbotipodocumento");
+                })
+            },
+            error: function (error) {
+                console.log(error)
+            }
+
+        });
+
+
+        $(document).ready(function () {
+            listardepartamento();
+
+
+        });
+
+
+        function listardepartamento() {
+            $("<option>").attr({ "value": "00","disabled":"disabled","selected":"true"}).text("Seleccionar").appendTo("#cbodepartamento")
+
+            jQuery.ajax({
+                url: '@Url.Action("ObtenerDepartamento", "Acceso")',
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    if (data.lista != null) {
+                        $.each(data.lista, function (i, item) {
+                            $("<option>").attr({ "value": item.iddepartamento }).text(item.NombreDepartamento).appendTo("#cbodepartamento")
+                        })
+
+                        listarprovincia();
+                    }
+                }
+            })
+        }
+
+        $("#cbodepartamento").on("change", function () {
+            listarprovincia();
+        });
+
+        function listarprovincia() {
+
+            $("#cboprovincia").html("")
+
+            $("<option>").attr({ "value": "00", "disabled": "disabled", "selected": "true" }).text("Seleccionar").appendTo("#cboprovincia")
+
+            jQuery.ajax({
+                url: '@Url.Action("ObtenerProvincias","Acceso")',
+                type: "POST",
+                data: JSON.stringify({ iddepartamento: $("#cbodepartamento option:selected").val() }),
+
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+
+                success: function (data) {
+                    console.log("Éxito en la solicitud AJAX");
+
+                    if (data.lista != null) {
+                        $.each(data.lista, function (i, item) {
+                            $("<option>").attr({ "value": item.IdProvincia }).text(item.NombreProvincia).appendTo("#cboprovincia")
+                        })
+                        listardistritos();
+                    }
+                },
+                error: function (error) {
+                    console.error("Error en la solicitud AJAX:", error);
+                }
+            })
+        }
+
+
+
+         $("#cboprovincia").on("change", function () {
+            listardistritos();
+        });
+        function listardistritos() {
+
+            $("#cbodistrito").html("")
+
+            $("<option>").attr({ "value": "00", "disabled": "disabled", "selected": "true" }).text("Seleccionar").appendTo("#cbodistrito")
+
+            jQuery.ajax({
+                url: '@Url.Action("ObtenerDistritos", "Acceso")',
+                type: "POST",
+                data: JSON.stringify({ IdProvincia: $("#cboprovincia option:selected").val()/*, IdDepartamento: $("#cbodepartamento option:selected").val()*/ }),
+
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+
+                success: function (data) {
+                    console.log("Éxito en la solicitud AJAX");
+
+                    if (data.lista != null) {
+                        $.each(data.lista, function (i, item) {
+                            $("<option>").attr({ "value": item.IdDistrito }).text(item.nombredistrito).appendTo("#cbodistrito")
+                        })
+                    }
+                },
+                error: function (error) {
+                    console.error("Error en la solicitud AJAX:", error);
+                }
+            })
+        }
+
+
+
+                jQuery.ajax({
+                url: '@Url.Action("ListarPrestamista", "Acceso")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    console.log(data)
+                    $("<option>").attr({ "value": "0", "disabled": "true" }).text("Seleccione").appendTo("#cboprestamista");
+
+                        $.each(data.data, function (index, item) {
+                            $("<option>").attr({ "value": item.idusuario }).text(item.nombres).appendTo("#cboprestamista");
+                        })
+                    },
+                    error: function (error) {
+                        console.log(error)
+                    }
+
+                });
+
+
+
+
+
+
+        function guardar() {
+            var prestatario = {
+                idusuario: $("#txtid").val(),
+                nombres: $("#txtnombre").val(),
+                 apellidos: $("#txtapellido").val(),
+
+                odocumento: {
+                    iddocumento: $("#cbotipodocumento option:selected").val(),
+                    descripcion: $("#cbotipodocumento option:selected").text
+                },
+                docume: $("#txtnrodocumento").val(),
+
+                odepartametno: {
+                    iddepartamento: $("#cbodepartamento option:selected").val(),
+                    nombreDepartamento: $("#cbodepartamento option:selected").text
+                },
+                oprovincia: {
+                    IdProvincia: $("#cboprovincia option:selected").val(),
+                    NombreProvincia: $("#cboprovincia option:selected").text
+
+                },
+                odistrito: {
+                    IdDistrito: $("#cbodistrito option:selected").val(),
+                    nombredistrito: $("#cbodistrito option:selected").text
+
+                },
+                correo: $("#txtcorreo").val(),
+
+                clave: $("#txtclave").val(),
+
+                ousuario: {
+                    idusuario: $("#cboprestamista option:selected").val(),
+                    nombres: $("#cboprestamista option:selected").text
+
+                }
+            };
+
+            $.ajax({
+                url: '@Url.Action("Registrarprestatario", "Acceso")',
+                type: "POST",
+                data: JSON.stringify(prestatario),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    if (prestatario.idusuario == 0) {
+                        if (data.resultado) {
+                                                window.location.href = '@Url.Action("IniciarSistema", "Acceso")';
+
+                        } else {
+                            $("#mensajeError").text(data.mensaje);
+                            $("#mensajeError").show();
+
+                        }
+                    }
+
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+
+            });
+        }
+
+
+
+
+
+    </script>
+
+

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\basededatos\\sgpg8.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\basededatos\\sgpg8.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\views\\prestatario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\views\\prestatario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\views\\prestatario\\vermisprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\views\\prestatario\\vermisprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\negocio\\prestamosnegoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\negocio\\prestamosnegoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\logica\\prestamologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\logica\\prestamologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|c:\\users\\asus\\3d objects\\pid_20241_viernes_t6gn_grupo_08a\\websistemaprestamos\\websistemaprestamos\\controllers\\prestatariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{578BCA9A-E9ED-42C0-ABF5-D4558607DD92}|WebSistemaPrestamos\\WebSistemaPrestamos.csproj|solutionrelative:websistemaprestamos\\controllers\\prestatariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vermisprestamos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Views\\Prestatario\\Vermisprestamos.cshtml",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\Views\\Prestatario\\Vermisprestamos.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Views\\Prestatario\\Vermisprestamos.cshtml",
+              "RelativeToolTip": "WebSistemaPrestamos\\Views\\Prestatario\\Vermisprestamos.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T05:22:48.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrestamosNegoc.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Negocio\\PrestamosNegoc.cs",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\Negocio\\PrestamosNegoc.cs",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Negocio\\PrestamosNegoc.cs",
+              "RelativeToolTip": "WebSistemaPrestamos\\Negocio\\PrestamosNegoc.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAG4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T04:26:49.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PrestamoLogic.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Logica\\PrestamoLogic.cs",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\Logica\\PrestamoLogic.cs",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Logica\\PrestamoLogic.cs",
+              "RelativeToolTip": "WebSistemaPrestamos\\Logica\\PrestamoLogic.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T04:23:09.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PrestatarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Controllers\\PrestatarioController.cs",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\Controllers\\PrestatarioController.cs",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Controllers\\PrestatarioController.cs",
+              "RelativeToolTip": "WebSistemaPrestamos\\Controllers\\PrestatarioController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAFkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T04:22:33.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sgpg8.txt",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\BasedeDatos\\sgpg8.txt",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\BasedeDatos\\sgpg8.txt",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\BasedeDatos\\sgpg8.txt",
+              "RelativeToolTip": "WebSistemaPrestamos\\BasedeDatos\\sgpg8.txt",
+              "ViewState": "AQIAAHsBAAAAAAAAAAAIwKMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-10T04:11:02.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Views\\Prestatario\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebSistemaPrestamos\\Views\\Prestatario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\3D Objects\\pid_20241_viernes_T6GN_grupo_08a\\WebSistemaPrestamos\\WebSistemaPrestamos\\Views\\Prestatario\\Index.cshtml",
+              "RelativeToolTip": "WebSistemaPrestamos\\Views\\Prestatario\\Index.cshtml",
+              "ViewState": "AQIAAAMBAAAAAAAAAAAIwGUBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-10T02:30:08.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+﻿
+
+@model WebSistemaPrestamos.Models.Usuario
+
+@{
+    Layout = null;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="@Url.Content("~/img/register.png")" type="image/x-icon">
+    <style>
+        body {
+            background-color: #fffff;
+            background-image: url('@Url.Content("~/img/registrar.jpg")');
+            background-size: cover; /* Ajusta la imagen al tamaño del cuerpo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            height: 100vh; /* Establece la altura del body al 100% de la ventana */
+            margin: 0; /* Elimina el margen del body */
+        }
+        html {
+            height: 100%; /* Asegura que el elemento html también ocupe toda la pantalla */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-7">
+                <div class="card shadow-lg rounded-lg">
+                    <div class="card-header text-center"><h3 class="font-weight-light my-4">Crear una cuenta</h3></div>
+                    <div class="card-body">
+                        <form action="@Url.Action("RegistrarUsuario","Acceso")" method="post">
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        @Html.TextBoxFor(m => m.nombres, new { @class = "form-control", @id = "txtnombre", @placeholder = ".", value = ViewData["nombres"] })
+                                        @Html.Label("txtnombre", "Nombres")
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        @Html.TextBoxFor(m => m.apellidos, new { @class = "form-control", @id = "txtapellido", @placeholder = ".", value = ViewData["apellidos"] })
+                                        @Html.Label("txtapellido", "Apellidos")
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                @Html.TextBoxFor(m => m.correo, new { @class = "form-control", @id = "txtcorreo", @placeholder = ".", value = ViewData["correo"] })
+                                @Html.Label("txtcorreo", "Correo")
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        @Html.TextBoxFor(m => m.clave, new { @class = "form-control", @id = "txtclave", @placeholder = ".", value = ViewData["clave"] })
+                                        @Html.Label("txtclave", "Clave")
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3 mb-md-0">
+                                        @Html.TextBoxFor(m => m.confirmarclave, new { @class = "form-control", @id = "txtconfirmarclave", @placeholder = "." })
+                                        @Html.Label("txtconfirmarclave", "Confirma tu clave de nuevo")
+                                    </div>
+                                </div>
+                            </div>
+
+                            @*esto es para que muestre la alerta cuando son incorrectas*@
+                            @{
+                                if (ViewBag.error != null)
+                                {
+                                    <div class="row mb-3">
+                                        <div class="alert alert-danger" role="alert">
+                                            @ViewBag.error
+                                        </div>
+                                    </div>
+                                }
+                            }
+
+
+
+                            <div class="mt-4 mb-0">
+                                <div class="d-grid"><button class="btn btn-primary btn-block" type="submit">Crear !!</button></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <div class="small"><a href="@Url.Action("IniciarSistema","Acceso")">¿Ya tienes una cuenta? Iniciar Sesión</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

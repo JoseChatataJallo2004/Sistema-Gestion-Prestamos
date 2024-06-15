@@ -1,0 +1,416 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+        th:first-child, td:first-child {
+            text-align: left;
+        }
+
+    tr:last-child td {
+        border-bottom: none;
+    }
+</style>
+<div class="container">
+    <h1>Monto</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Duración</th>
+                <th scope="col">S/150</th>
+                <th scope="col">S/200</th>
+                <th scope="col">S/300</th>
+                <th scope="col">S/400</th>
+                <th scope="col">S/500</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" data-days="15">15 Días</th>
+                <td data-amount="154.11">S/154.11</td>
+                <td data-amount="205.49">S/205.49</td>
+                <td data-amount="308.23">S/308.23</td>
+                <td data-amount="410.98">S/410.98</td>
+                <td data-amount="513.72">S/513.72</td>
+            </tr>
+            <tr>
+                <th scope="row" data-days="20">20 Días</th>
+                <td data-amount="155.49">S/155.49</td>
+                <td data-amount="207.32">S/207.32</td>
+                <td data-amount="310.98">S/310.98</td>
+                <td data-amount="414.64">S/414.64</td>
+                <td data-amount="518.30">S/518.30</td>
+            </tr>
+            <tr>
+                <th scope="row" data-days="25">25 Días</th>
+                <td data-amount="156.86">S/156.86</td>
+                <td data-amount="209.15">S/209.15</td>
+                <td data-amount="313.72">S/313.72</td>
+                <td data-amount="418.30">S/418.30</td>
+                <td data-amount="522.88">S/522.88</td>
+            </tr>
+            <tr>
+                <th scope="row" data-days="30">30 Días</th>
+                <td data-amount="157.23">S/157.23</td>
+                <td data-amount="210.98">S/210.98</td>
+                <td data-amount="316.47">S/316.47</td>
+                <td data-amount="421.96">S/421.96</td>
+                <td data-amount="527.45">S/527.45</td>
+            </tr>
+            <tr>
+                <th scope="row" data-days="35">35 Días</th>
+                <td data-amount="159.61">S/159.61</td>
+                <td data-amount="212.81">S/212.81</td>
+                <td data-amount="319.22">S/319.22</td>
+                <td data-amount="425.62">S/425.62</td>
+                <td data-amount="532.03">S/532.03</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<!--Modal-->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Solicitar Prestamo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mt-4">
+                    <div class="col-sm-6">
+                        <div class="card mb-5" id="cardCliente">
+                            <div class="card-header">
+                                <i class="fa-solid fa-user"></i>
+                                Mis Datos
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        @if (Session["Usuario"] != null)
+                                        {
+
+                                            var usuario = (WebSistemaPrestamos.Models.Usuario)Session["Usuario"];
+
+                                            <div class="mb-3">
+                                                <label for="txtNombre" class="form-label">Nombre: </label>
+                                                <input type="text" class="form-control data-in" id="txtNombre" value="@usuario.nombres" autocomplete="off" disabled>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="txtApellido" class="form-label">Apellido:</label>
+                                                <input type="text" class="form-control data-in" id="txtApellido" value="@usuario.apellidos" autocomplete="off" name="Apellido" disabled>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="txtCorreo" class="form-label">Correo:</label>
+                                                <input type="text" class="form-control data-in" id="txtCorreo" value="@usuario.correo" autocomplete="off" name="Correo" disabled>
+                                            </div>
+                                            <input type="hidden" class="form-control data-in" id="txtprestatario" value="@ViewBag.IdUsuarioPadre" autocomplete="off" name="Correo" disabled>
+
+
+                                            <br />
+
+
+
+                                        }
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fa-solid fa-file-invoice"></i>
+                                Detalle
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtMontoPrestamo" class="form-label">Monto Prestamo:</label>
+                                            <input type="number" class="form-control data-prestamo" id="txtMontoPrestamo" name="Monto_Prestamo" min="1" disabled autocomplete="off">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtFechaInicio" class="form-label">Fecha Inicio:</label>
+                                            <input type="date" class="form-control data-prestamo" id="txtFechaInicio" name="Fecha_Inicio">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtFechaFin" class="form-label">Fecha Fin:</label>
+                                            <input type="date" class="form-control data-prestamo" id="txtFechaFin" name="Fecha_Fin" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtDias" class="form-label">Dias  :</label>
+                                            <input type="text" class="form-control data-in" id="txtDias" name="txtDias" disabled>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtDiasLaborables" class="form-label">Dias laborables L-V :</label>
+                                            <input type="text" class="form-control data-in" id="txtDiasLaborables" name="txtDiasLaborables" disabled>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="txtPagoDiarios" class="form-label">Pagos Diarios laborables L-V:</label>
+                                            <input type="text" class="form-control data-in" id="txtPagoDiarios" name="txtPagoDiarios" disabled>
+                                        </div>
+                                    </div>
+
+
+                                  
+
+                                </div>
+                                                
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" id="btnRegistrar" onclick="guardarprestamos()">Solicitar Prestamo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section scripts{
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @*<script>
+            $(document).ready(function () {
+                $('td').click(function () {
+                    var amount = $(this).data('amount');
+                    var day = $(this).closest('tr').find('th').data('days');
+                    Swal.fire({
+                        title: 'Detalles',
+                        html: 'Monto: ' + amount + '<br>Día: ' + day,
+                        icon: 'info',
+                        confirmButtonText: 'Cerrar'
+                    });
+                });
+            });
+        </script>*@
+
+
+<script>
+
+        function sumarDiasAFecha(fecha, dias) {
+            var nuevaFecha = new Date(fecha);
+            nuevaFecha.setDate(nuevaFecha.getDate() + dias);
+            return nuevaFecha;
+        }
+
+        function calcularDiasLaborables(fechaInicio, fechaFin) {
+            var diasLaborables = 0;
+            var fechaActual = new Date(fechaInicio);
+            while (fechaActual <= fechaFin) {
+                var diaSemana = fechaActual.getDay();
+                if (diaSemana !== 0 && diaSemana !== 6) { // Excluir sábado y domingo
+                    diasLaborables++;
+                }
+                fechaActual.setDate(fechaActual.getDate() + 1);
+            }
+            return diasLaborables;
+        }
+
+        function calcularMonto() {
+            var monto = parseFloat($('#txtMontoPrestamo').val()); // Obtener el monto del préstamo
+
+            var fechaInicio = $('#txtFechaInicio').val(); // Obtener la fecha de inicio
+            var dias = parseInt($('#txtDias').val()); // Obtener el número de días
+            var fechaFin = sumarDiasAFecha(fechaInicio, dias); // Calcular la fecha de fin
+            var diasLaborables = calcularDiasLaborables(new Date(fechaInicio), fechaFin); // Calcular los días laborables
+
+
+            console.log(monto);
+            console.log(diasLaborables);
+            if (!isNaN(monto) && !isNaN(diasLaborables) && diasLaborables !== 0) { // Verificar que los valores sean válidos
+                var montoPorDia = monto / diasLaborables; // Calcular el monto por día
+                $('#txtPagoDiarios').val(montoPorDia.toFixed(2)); // Establecer el monto por día en el campo correspondiente
+                return montoPorDia; // Devolver el monto por día
+            }
+            return 0; // Si hay algún error, devolver 0
+        }
+
+        $('#txtFechaInicio').change(function () {
+            var fechaInicio = $(this).val(); // Obtener la fecha de inicio
+            var dias = parseInt($('#txtDias').val()); // Obtener el número de días
+            if (!isNaN(dias)) { // Verificar si el número de días es un número válido
+                var fechaFin = sumarDiasAFecha(fechaInicio, dias); // Calcular la fecha de fin
+                var diasLaborables = calcularDiasLaborables(new Date(fechaInicio), fechaFin); // Calcular los días laborables
+
+
+                var pagos = calcularMonto(); // Calcular el pago diario
+
+                $('#txtFechaFin').val(fechaFin.toISOString().substring(0, 10)); // Establecer la fecha de fin en el campo correspondiente
+                $('#txtDiasLaborables').val(diasLaborables); // Establecer los días laborables en el campo correspondiente
+
+
+            }
+        });
+
+
+        $(document).ready(function () {
+            $('td').click(function () {
+                var amount = $(this).data('amount'); // Obtener el monto de la celda clicada
+                var day = $(this).closest('tr').find('th').data('days'); // Obtener el día correspondiente
+                $('#txtMontoPrestamo').val(amount); // Establecer el monto en el campo correspondiente del modal
+                $('#exampleModal').modal('show'); // Mostrar el modal
+            });
+
+
+
+            $('th').parent().click(function () {
+                var amounta = $(this).find('th').data('days'); // Obtener el número de días de la fila clicada
+                $('#txtDias').val(amounta); // Establecer el número de días en el campo correspondiente del modal
+                var fechaInicio = $('#txtFechaInicio').val(); // Obtener la fecha de inicio
+                if (fechaInicio) { // Verificar si se ha seleccionado una fecha de inicio
+                    var dias = parseInt(amounta); // Obtener el número de días
+                    var fechaFin = sumarDiasAFecha(fechaInicio, dias); // Calcular la fecha de fin
+                    $('#txtFechaFin').val(fechaFin.toISOString().substring(0, 10)); // Establecer la fecha de fin en el campo correspondiente
+                }
+                $('#exampleModal').modal('show'); // Mostrar el modal
+            });
+
+        });
+
+
+  
+    $('#exampleModal').on('hidden.bs.modal', function () {
+        $('#txtFechaInicio').val(''); // Limpiar el campo de fecha de inicio
+        $('#txtFechaFin').val(''); // Limpiar el campo de fecha de fin
+        $('#txtDiasLaborables').val(''); // Limpiar el campo de días laborables
+        $('#txtPagoDiarios').val(''); // Limpiar el campo de pagos diarios
+    });
+
+        function guardarprestamos() {
+            var prestamo = {
+                IdUsuarioPrestatario: $("#txtprestatario").val(),
+                correo: $("#txtCorreo").val(),
+                FechaInicioPago: $("#txtFechaInicio").val(),
+                FechaFinPago: $("#txtFechaFin").val(),
+
+
+                MontoPrestamo: $("#txtMontoPrestamo").val(),
+                nrodias: $("#txtDiasLaborables").val(),
+                valorpordia: $("#txtPagoDiarios").val()
+
+
+            };
+
+            $.ajax({
+                url: '@Url.Action("guardarregistroprestamos", "Prestatario")',
+                type: "POST",
+                data: JSON.stringify(prestamo),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+
+                      if (data.resultado > 0) { // Si el resultado es verdadero, es decir, no hay error
+                        Swal.fire({
+                            title: "Éxito!",
+                            text: "Solicitud de prestamo registrado en nuestra base",
+                            icon: "success",
+                            confirmButtonText: "OK"
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = '@Url.Action("Vermisprestamos", "Prestatario")';
+                            }
+                        });
+                    } else { // Si hay un error, mostrar el mensaje de error
+                        Swal.fire({
+                            title: "Error!",
+                            text: data.mensaje, // Mostrar el mensaje de error recibido del controlador
+                            icon: "error",
+                            confirmButtonText: "OK"
+                        });
+                    }
+
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+
+            });
+        }
+
+</script>
+
+
+
+}
+
